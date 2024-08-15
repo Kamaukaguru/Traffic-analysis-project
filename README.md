@@ -1,7 +1,6 @@
 # Traffic-analysis-project
 
-[text](https://www.google.com/imgres?q%3Dtraffic%20on%20roads%26imgurl%3Dhttps%3A%2F%2Flyt.ai%2Fwp-content%2Fuploads%2F2022%2F10%2Fheavy-traffic-2022-11-01-09-26-41-utc-scaled.jpg%26imgrefurl%3Dhttps%3A%2F%2Flyt.ai%2Fblog%2Fon-the-road%2Fhow-to-reduce-traffic-congestion%2F%26docid%3DT6N1xpUzJ9yJiM%26tbnid%3D0LQrydGPSqlhWM%26vet%3D12ahUKEwibo4rDnPaHAxXGVvEDHdAxPUYQM3oECEEQAA..i%26w%3D2560%26h%3D1707%26hcb%3D2%26ved%3D2ahUKEwibo4rDnPaHAxXGVvEDHdAxPUYQM3oECEEQAA)
-
+![alt text](traffic.jpg)
 
 # Prject Overview / Business Understanding.
 ## 1.1 Introduction
@@ -26,4 +25,6 @@ The dataset is provided by the UC Irvine Machine Learning Repository. It has 476
 
 ## Data Preparation
 We dropped the empty columns which were "body_roll', 'body_pitch', 'body_yaw',' head_roll', 'head_pitch', and 'head_yaw'. We also checked  for duplicate rows which we later dropped.
+
+## Data Analysis
 
