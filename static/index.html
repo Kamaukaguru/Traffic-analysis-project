@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Traffic Predictor</title>
+</head>
+<body>
+    <h1>Traffic Predictor</h1>
+    <form id="predictForm">
+        Hour: <input type="number" id="hour" name="hour"><br>
+        Day of Week: <input type="number" id="day_of_week" name="day_of_week"><br>
+        Temperature: <input type="number" id="temperature" name="temperature"><br>
+        Congestion Level: <input type="number" id="congestion_level" name="congestion_level"><br>
+        Weather Condition: 
+        <select id="weather_condition" name="weather_condition">
+            <option value="sunny">Sunny</option>
+            <option value="rainy">Rainy</option>
+            <option value="cloudy">Cloudy</option>
+        </select><br>
+        <button type="submit">Submit</button>
+    </form>
+    <p>Vehicle Count: <span id="vehicleCount"></span></p>
+    <p>Pedestrian Count: <span id="pedestrianCount"></span></p>
+</body>
+</html>
