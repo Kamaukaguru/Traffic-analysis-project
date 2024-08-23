@@ -29,7 +29,7 @@ async def get_home():
             <style>
                 body {
                     font-family: Arial, sans-serif;
-                    background-image: url('/static/street.jpg'); /* Path to your local image */
+                    background-image: url('/static/image.jpg'); /* Path to your local image */
                     background-size: cover;
                     background-position: center;
                     background-attachment: fixed;
@@ -39,7 +39,7 @@ async def get_home():
                 .container {
                     max-width: 600px;
                     margin: 0 auto;
-                    background: rgba(255, 255, 255, 0.9); /* White background with some transparency */
+                    background: rgba(255, 255, 255, 0.8); /* White background with 80% opacity */
                     padding: 20px;
                     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
                     border-radius: 8px;
@@ -157,7 +157,7 @@ async def predict_traffic(
             <style>
                 body {{
                     font-family: Arial, sans-serif;
-                    background-image: url('/static/traffic.jpg'); /* Path to your local image */
+                    background-image: url('/static/city.jpg'); /* Path to your local image */
                     background-size: cover;
                     background-position: center;
                     margin: 0;
@@ -166,7 +166,7 @@ async def predict_traffic(
                 .container {{
                     max-width: 600px;
                     margin: 0 auto;
-                    background: rgba(255, 255, 255, 0.9); /* White background with some transparency */
+                    background: rgba(255, 255, 255, 0.8); /* White background with 80% opacity */
                     padding: 20px;
                     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
                     border-radius: 8px;
@@ -242,3 +242,7 @@ async def predict_traffic(
         </body>
         </html>
     """
+
+if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run(app, host="0.0.0.0", port=8000)
